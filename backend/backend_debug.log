@@ -1,0 +1,231 @@
+2025-12-31 11:37:38,060 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:38,248 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:38,275 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:38,283 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:37:38,561 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:38,581 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:38,720 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:38,740 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:38,748 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:38,751 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:37:38,765 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:38,768 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:37:38,798 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:38,923 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:38,945 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:38,948 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:37:40,313 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:37:40,781 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:37:40,798 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:37:40,971 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:37:48,196 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:48,349 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:48,386 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:48,388 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:37:48,582 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:48,615 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:48,736 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:48,752 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:48,782 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:48,784 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:48,791 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:37:48,807 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:48,811 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:37:48,866 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:48,882 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:48,898 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:37:49,810 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:37:49,831 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:37:49,919 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:37:50,419 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:37:56,296 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:56,296 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:56,397 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:56,430 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:56,436 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:56,448 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:56,451 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:37:56,452 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:56,464 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:37:56,502 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:56,512 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:56,518 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:37:56,734 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:37:56,793 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:37:56,815 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:37:56,815 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:38:19,796 - app - INFO - ============================================================
+2025-12-31 11:38:19,796 - app - INFO - [AI-RECOMMENDATIONS] Endpoint cagrisi alindi
+2025-12-31 11:38:19,796 - app - INFO - ============================================================
+2025-12-31 11:38:19,797 - app - INFO - [REQUEST] Gelen veri: {'primary_type': 'Tritanopi (Mavi-Sari Korlugu)', 'secondary_type': None, 'confidence': 85.5}
+2025-12-31 11:38:19,797 - app - INFO - [DATA] Primary Type: tritanopi (mavi-sari korlugu)
+2025-12-31 11:38:19,797 - app - INFO - [DATA] Secondary Type: None
+2025-12-31 11:38:19,797 - app - INFO - [DATA] Confidence: 85.5
+2025-12-31 11:38:19,797 - app - INFO - [GEMINI] API cagrisi baslatiliyor...
+2025-12-31 11:38:19,797 - app - INFO - 
+[FUNCTION] get_ai_recommendations() cagirildi
+2025-12-31 11:38:19,797 - app - INFO - [PARAMS] Primary: tritanopi (mavi-sari korlugu)
+2025-12-31 11:38:19,797 - app - INFO - [PARAMS] Secondary: None
+2025-12-31 11:38:19,797 - app - INFO - [PARAMS] Confidence: 85.5
+2025-12-31 11:38:19,797 - app - INFO - [CONFIG] Gemini API URL: https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent
+2025-12-31 11:38:19,797 - app - INFO - [CONFIG] API Key mevcut: Evet
+2025-12-31 11:38:19,797 - app - INFO - [REQUEST] Gemini API'ye istek gonderiliyor...
+2025-12-31 11:38:19,800 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-12-31 11:38:26,913 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1/models/gemini-2.5-flash:generateContent?key=AIzaSyDbuCtZusMErFuUVWneHAOKq-aBsDm2Oe8 HTTP/11" 200 None
+2025-12-31 11:38:26,913 - app - INFO - [RESPONSE] Status Code: 200
+2025-12-31 11:38:26,913 - app - INFO - [PARSE] Response alindi, parse ediliyor...
+2025-12-31 11:38:26,913 - app - INFO - [PARSE] Raw Content: ```json
+{
+    "primary_recommendations": [
+        "Renkleri daha net ayýrt etmek için parlak ve doðal ýþýkta olmaya özen göster; iyi aydýnlatma farklarý görmene yardýmcý olabilir.",
+        "Mavi-sar...
+2025-12-31 11:38:26,913 - app - INFO - [OK] Gemini AI basariyla yanit verdi!
+2025-12-31 11:38:26,913 - app - INFO - [RESULT] Success: True, AI Generated: True
+2025-12-31 11:38:26,920 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2025 11:38:26] "POST /ai-recommendations HTTP/1.1" 200 -
+2025-12-31 11:38:56,129 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:38:56,751 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:38:56,751 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:38:56,809 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Cumali\\Desktop\\Bitirme Proje\\backend\\app.py', reloading
+2025-12-31 11:39:01,017 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:39:01,104 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:39:01,115 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:39:01,117 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:39:01,666 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:39:01,666 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:39:01,666 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-12-31 11:39:01,787 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:39:01,788 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:39:01,789 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-31 11:39:01,806 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:39:01,806 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:39:01,807 - werkzeug - WARNING -  * Debugger is active!
+2025-12-31 11:39:01,809 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:39:01,809 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:39:01,809 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2025-12-31 11:39:16,867 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2025 11:39:16] "GET / HTTP/1.1" 200 -
+2025-12-31 11:39:18,145 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2025 11:39:18] "GET / HTTP/1.1" 200 -
+2025-12-31 11:39:20,354 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2025 11:39:20] "OPTIONS /random-test HTTP/1.1" 200 -
+2025-12-31 11:39:20,617 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2025 11:39:20] "GET /random-test HTTP/1.1" 200 -
+2025-12-31 11:39:35,973 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2025 11:39:35] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-31 11:39:36,486 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2025 11:39:36] "POST /predict HTTP/1.1" 200 -
+2025-12-31 11:39:36,797 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2025 11:39:36] "OPTIONS /ai-recommendations HTTP/1.1" 200 -
+2025-12-31 11:39:37,103 - app - INFO - ============================================================
+2025-12-31 11:39:37,103 - app - INFO - [AI-RECOMMENDATIONS] Endpoint cagrisi alindi
+2025-12-31 11:39:37,104 - app - INFO - ============================================================
+2025-12-31 11:39:37,104 - app - INFO - [REQUEST] Gelen veri: {'primary_type': 'Tritanopi (Mavi-Sarý Körlüðü)', 'secondary_type': None, 'confidence': 100}
+2025-12-31 11:39:37,104 - app - INFO - [DATA] Primary Type: tritanopi (mavi-sarý körlüðü)
+2025-12-31 11:39:37,104 - app - INFO - [DATA] Secondary Type: None
+2025-12-31 11:39:37,104 - app - INFO - [DATA] Confidence: 100
+2025-12-31 11:39:37,104 - app - INFO - [GEMINI] API cagrisi baslatiliyor...
+2025-12-31 11:39:37,104 - app - INFO - 
+[FUNCTION] get_ai_recommendations() cagirildi
+2025-12-31 11:39:37,104 - app - INFO - [PARAMS] Primary: tritanopi (mavi-sarý körlüðü)
+2025-12-31 11:39:37,104 - app - INFO - [PARAMS] Secondary: None
+2025-12-31 11:39:37,105 - app - INFO - [PARAMS] Confidence: 100
+2025-12-31 11:39:37,105 - app - INFO - [CONFIG] Gemini API URL: https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent
+2025-12-31 11:39:37,105 - app - INFO - [CONFIG] API Key mevcut: Evet
+2025-12-31 11:39:37,105 - app - INFO - [REQUEST] Gemini API'ye istek gonderiliyor...
+2025-12-31 11:39:37,109 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2025-12-31 11:39:43,852 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1/models/gemini-2.5-flash:generateContent?key=AIzaSyDbuCtZusMErFuUVWneHAOKq-aBsDm2Oe8 HTTP/11" 200 None
+2025-12-31 11:39:43,855 - app - INFO - [RESPONSE] Status Code: 200
+2025-12-31 11:39:43,855 - app - INFO - [PARSE] Response alindi, parse ediliyor...
+2025-12-31 11:39:43,855 - app - INFO - [PARSE] Raw Content: ```json
+{
+    "primary_recommendations": [
+        "Mavi-sarý renk ayrýmýnda zorlandýðýnýzý bilerek, günlük hayatta (trafik iþaretleri, giysi seçimi, uyarý etiketleri gibi) bu tonlarý karýþtýrabileceð...
+2025-12-31 11:39:43,855 - app - INFO - [OK] Gemini AI basariyla yanit verdi!
+2025-12-31 11:39:43,857 - app - INFO - [RESULT] Success: True, AI Generated: True
+2025-12-31 11:39:43,857 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2025 11:39:43] "POST /ai-recommendations HTTP/1.1" 200 -
+2026-01-07 11:34:06,379 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2026-01-07 11:34:06,719 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-01-07 11:34:08,017 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.61.0.85:5000
+2026-01-07 11:34:08,017 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-07 11:34:08,017 - werkzeug - INFO -  * Restarting with stat
+2026-01-07 11:34:15,260 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2026-01-07 11:34:15,392 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-01-07 11:34:15,420 - werkzeug - WARNING -  * Debugger is active!
+2026-01-07 11:34:15,429 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2026-01-07 11:35:18,294 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 11:35:18] "GET / HTTP/1.1" 200 -
+2026-01-07 11:53:55,325 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 11:53:55] "OPTIONS /random-test HTTP/1.1" 200 -
+2026-01-07 11:53:55,588 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 11:53:55] "GET /random-test HTTP/1.1" 200 -
+2026-01-07 11:54:18,190 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 11:54:18] "OPTIONS /predict HTTP/1.1" 200 -
+2026-01-07 11:54:18,891 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 11:54:18] "POST /predict HTTP/1.1" 200 -
+2026-01-07 11:54:19,206 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 11:54:19] "OPTIONS /ai-recommendations HTTP/1.1" 200 -
+2026-01-07 11:54:19,517 - app - INFO - ============================================================
+2026-01-07 11:54:19,517 - app - INFO - [AI-RECOMMENDATIONS] Endpoint cagrisi alindi
+2026-01-07 11:54:19,517 - app - INFO - ============================================================
+2026-01-07 11:54:19,519 - app - INFO - [REQUEST] Gelen veri: {'primary_type': 'Deuteranopi (Yeþil Körlüðü)', 'secondary_type': None, 'confidence': 100}
+2026-01-07 11:54:19,519 - app - INFO - [DATA] Primary Type: deuteranopi (yeþil körlüðü)
+2026-01-07 11:54:19,519 - app - INFO - [DATA] Secondary Type: None
+2026-01-07 11:54:19,520 - app - INFO - [DATA] Confidence: 100
+2026-01-07 11:54:19,520 - app - INFO - [GEMINI] API cagrisi baslatiliyor...
+2026-01-07 11:54:19,520 - app - INFO - 
+[FUNCTION] get_ai_recommendations() cagirildi
+2026-01-07 11:54:19,520 - app - INFO - [PARAMS] Primary: deuteranopi (yeþil körlüðü)
+2026-01-07 11:54:19,521 - app - INFO - [PARAMS] Secondary: None
+2026-01-07 11:54:19,521 - app - INFO - [PARAMS] Confidence: 100
+2026-01-07 11:54:19,521 - app - INFO - [CONFIG] Gemini API URL: https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent
+2026-01-07 11:54:19,521 - app - INFO - [CONFIG] API Key mevcut: Evet
+2026-01-07 11:54:19,522 - app - INFO - [REQUEST] Gemini API'ye istek gonderiliyor...
+2026-01-07 11:54:19,529 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2026-01-07 11:54:29,583 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1/models/gemini-2.5-flash:generateContent?key=AIzaSyDbuCtZusMErFuUVWneHAOKq-aBsDm2Oe8 HTTP/11" 503 None
+2026-01-07 11:54:29,590 - app - INFO - [RESPONSE] Status Code: 503
+2026-01-07 11:54:29,591 - app - ERROR - [HATA] Gemini API hatasi: 503
+2026-01-07 11:54:29,591 - app - ERROR - [HATA] Response Text: {
+  "error": {
+    "code": 503,
+    "message": "The model is overloaded. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+2026-01-07 11:54:29,593 - app - INFO - [RESULT] Success: False, AI Generated: False
+2026-01-07 11:54:29,595 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 11:54:29] "POST /ai-recommendations HTTP/1.1" 200 -
+2026-01-07 14:05:15,253 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2026-01-07 14:05:15,378 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-01-07 14:05:15,426 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.10:5000
+2026-01-07 14:05:15,427 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-07 14:05:15,432 - werkzeug - INFO -  * Restarting with stat
+2026-01-07 14:05:24,705 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2026-01-07 14:05:24,876 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-01-07 14:05:24,911 - werkzeug - WARNING -  * Debugger is active!
+2026-01-07 14:05:24,941 - werkzeug - INFO -  * Debugger PIN: 546-010-878
+2026-01-07 14:05:24,963 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 14:05:24] "GET / HTTP/1.1" 200 -
+2026-01-07 15:39:33,866 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 15:39:33] "OPTIONS /random-test HTTP/1.1" 200 -
+2026-01-07 15:39:34,035 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 15:39:34] "GET /random-test HTTP/1.1" 200 -
+2026-01-07 15:40:32,235 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 15:40:32] "OPTIONS /predict HTTP/1.1" 200 -
+2026-01-07 15:40:33,198 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 15:40:33] "POST /predict HTTP/1.1" 200 -
+2026-01-07 15:40:33,521 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 15:40:33] "OPTIONS /ai-recommendations HTTP/1.1" 200 -
+2026-01-07 15:40:33,823 - app - INFO - ============================================================
+2026-01-07 15:40:33,823 - app - INFO - [AI-RECOMMENDATIONS] Endpoint cagrisi alindi
+2026-01-07 15:40:33,823 - app - INFO - ============================================================
+2026-01-07 15:40:33,829 - app - INFO - [REQUEST] Gelen veri: {'primary_type': 'Tritanopi (Mavi-Sarý Körlüðü)', 'secondary_type': None, 'confidence': 100}
+2026-01-07 15:40:33,829 - app - INFO - [DATA] Primary Type: tritanopi (mavi-sarý körlüðü)
+2026-01-07 15:40:33,831 - app - INFO - [DATA] Secondary Type: None
+2026-01-07 15:40:33,831 - app - INFO - [DATA] Confidence: 100
+2026-01-07 15:40:33,831 - app - INFO - [GEMINI] API cagrisi baslatiliyor...
+2026-01-07 15:40:33,831 - app - INFO - 
+[FUNCTION] get_ai_recommendations() cagirildi
+2026-01-07 15:40:33,831 - app - INFO - [PARAMS] Primary: tritanopi (mavi-sarý körlüðü)
+2026-01-07 15:40:33,831 - app - INFO - [PARAMS] Secondary: None
+2026-01-07 15:40:33,834 - app - INFO - [PARAMS] Confidence: 100
+2026-01-07 15:40:33,834 - app - INFO - [CONFIG] Gemini API URL: https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent
+2026-01-07 15:40:33,834 - app - INFO - [CONFIG] API Key mevcut: Evet
+2026-01-07 15:40:33,834 - app - INFO - [REQUEST] Gemini API'ye istek gonderiliyor...
+2026-01-07 15:40:33,850 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2026-01-07 15:40:40,684 - urllib3.connectionpool - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1/models/gemini-2.5-flash:generateContent?key=AIzaSyDbuCtZusMErFuUVWneHAOKq-aBsDm2Oe8 HTTP/11" 200 None
+2026-01-07 15:40:40,709 - app - INFO - [RESPONSE] Status Code: 200
+2026-01-07 15:40:40,713 - app - INFO - [PARSE] Response alindi, parse ediliyor...
+2026-01-07 15:40:40,714 - app - INFO - [PARSE] Raw Content: ```json
+{
+    "primary_recommendations": [
+        "Öncelikle bir göz doktoru veya uzmanla görüþerek teþhisini doðrulatmaný ve sana özel tavsiyeler almaný öneririz. Bu, durumunu en iyi þekilde yönetme...
+2026-01-07 15:40:40,714 - app - INFO - [OK] Gemini AI basariyla yanit verdi!
+2026-01-07 15:40:40,722 - app - INFO - [RESULT] Success: True, AI Generated: True
+2026-01-07 15:40:40,727 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 15:40:40] "POST /ai-recommendations HTTP/1.1" 200 -

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renk Körlüğü Testi - Yapay Zekâ Destekli Analiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Component -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <svg class="logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16 8V16L20 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span class="logo-text">Renk Körlüğü Testi</span>
+            </div>
+            <nav class="header-nav">
+                <a href="#welcome-screen" class="nav-link">Ana Sayfa</a>
+                <a href="#" class="nav-link">Hakkında</a>
+                <a href="#" class="nav-link">İletişim</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Tema değiştir">
+                    <div class="theme-toggle-slider">
+                        <svg class="theme-toggle-icon sun" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="5"/>
+                            <line x1="12" y1="1" x2="12" y2="3"/>
+                            <line x1="12" y1="21" x2="12" y2="23"/>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                            <line x1="1" y1="12" x2="3" y2="12"/>
+                            <line x1="21" y1="12" x2="23" y2="12"/>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                        </svg>
+                        <svg class="theme-toggle-icon moon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                    </div>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        
+        <!-- Hero Component - Welcome Screen -->
+        <section id="welcome-screen" class="screen active hero-section">
+            <div class="hero-container">
+                <div class="hero-badge">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2L12.09 7.26L18 8.27L14 12.14L14.91 18.09L10 15.77L5.09 18.09L6 12.14L2 8.27L7.91 7.26L10 2Z" fill="currentColor"/>
+                    </svg>
+                    <span>Yapay Zekâ Destekli Tarama</span>
+                </div>
+                
+                <h1 class="hero-title">Renk Körlüğü Testi</h1>
+                <h2 class="hero-subtitle">Klinik Standartlarda Dijital Değerlendirme</h2>
+                
+                <p class="hero-description">
+                    Ishihara test metodolojisi ve yapay zekâ destekli analiz ile renk görme durumunuzu 
+                    güvenilir bir şekilde değerlendirin. Profesyonel sağlık standartlarına uygun sonuçlar.
+                </p>
+
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Klinik Standart</span>
+                    </div>
+                    <div class="feature-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 8V12L15 15M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>5 Dakika</span>
+                    </div>
+                    <div class="feature-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Güvenilir</span>
+                    </div>
+                </div>
+
+                <button id="start-test-btn" class="btn-primary">
+                    <span>Testi Başlat</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <p class="hero-disclaimer">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M8 7V10M8 12H8.01M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Bu test bilgilendirme amaçlıdır. Kesin teşhis için göz doktoruna başvurunuz.
+                </p>
+            </div>
+
+            <!-- Renk Körlüğü Türleri Section -->
+            <div class="colorblind-types-section">
+                <div class="section-header">
+                    <h3 class="section-title">Renk Körlüğü Türleri</h3>
+                    <p class="section-description">
+                        Tespit edilebilen ana renk görme bozuklukları ve özellikleri
+                    </p>
+                </div>
+
+                <div class="types-grid">
+                    <!-- Protanopi -->
+                    <div class="type-card">
+                        <div class="type-icon protanopi-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2.5"/>
+                                <circle cx="16" cy="16" r="8" fill="currentColor" opacity="0.2"/>
+                                <path d="M16 8V16L20 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4 class="type-title">Protanopi</h4>
+                        <p class="type-subtitle">Kırmızı-Yeşil Körlüğü (Tip 1)</p>
+                        <p class="type-description">
+                            Kırmızı renk algılama zorluğu. Kırmızı-yeşil renk karışımlarında ayırt etme problemi yaşanır.
+                        </p>
+                    </div>
+
+                    <!-- Deuteranopi -->
+                    <div class="type-card">
+                        <div class="type-icon deuteranopi-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2.5"/>
+                                <circle cx="16" cy="16" r="8" fill="currentColor" opacity="0.2"/>
+                                <path d="M12 16L16 20L24 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4 class="type-title">Deuteranopi</h4>
+                        <p class="type-subtitle">Yeşil Körlüğü (Tip 2)</p>
+                        <p class="type-description">
+                            Yeşil renk algılama zorluğu. En yaygın renk körlüğü tipidir, yeşil tonlarında zorluk yaşanır.
+                        </p>
+                    </div>
+
+                    <!-- Tritanopi -->
+                    <div class="type-card">
+                        <div class="type-icon tritanopi-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2.5"/>
+                                <circle cx="16" cy="16" r="8" fill="currentColor" opacity="0.2"/>
+                                <path d="M16 22V10M10 16H22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4 class="type-title">Tritanopi</h4>
+                        <p class="type-subtitle">Mavi-Sarı Körlüğü</p>
+                        <p class="type-description">
+                            Mavi ve sarı renkleri ayırt etmede zorluk. Nadir görülür, mavi tonlarında algılama problemi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nasıl Çalışır Section -->
+            <div class="how-it-works-section">
+                <div class="section-header">
+                    <h3 class="section-title">Nasıl Çalışır?</h3>
+                    <p class="section-description">
+                        Üç basit adımda renk görme durumunuzu değerlendirin
+                    </p>
+                </div>
+
+                <div class="steps-container">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4 class="step-title">Test Görsellerini İnceleyin</h4>
+                            <p class="step-description">
+                                10 farklı Ishihara test plakasında gördüğünüz sayıları tespit edin. Her görselde net bir şekilde görünen sayıları girin.
+                            </p>
+                        </div>
+                        <div class="step-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <rect x="8" y="8" width="24" height="24" rx="4" stroke="currentColor" stroke-width="2.5"/>
+                                <circle cx="20" cy="20" r="6" fill="currentColor" opacity="0.3"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4 class="step-title">Cevaplarınızı Kaydedin</h4>
+                            <p class="step-description">
+                                Gördüğünüz sayıları ilgili alanlara girin. Eğer görselde bir sayı göremiyorsanız "Göremiyorum" seçeneğini kullanın.
+                            </p>
+                        </div>
+                        <div class="step-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M12 20H28M20 12V28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                <circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="2.5"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4 class="step-title">Yapay Zekâ Analizi</h4>
+                            <p class="step-description">
+                                Cevaplarınız yapay zekâ algoritması ile analiz edilir ve size detaylı bir değerlendirme raporu sunulur.
+                            </p>
+                        </div>
+                        <div class="step-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M20 8V14M20 26V32M8 20H14M26 20H32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                <circle cx="20" cy="20" r="6" stroke="currentColor" stroke-width="2.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bilimsel Güven Section -->
+            <div class="trust-section">
+                <div class="trust-grid">
+                    <div class="trust-card">
+                        <div class="trust-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M16 4L4 10L16 16L28 10L16 4Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                                <path d="M4 22L16 28L28 22" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                                <path d="M4 16L16 22L28 16" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4 class="trust-title">Ishihara Metodu</h4>
+                        <p class="trust-description">1917'den beri klinik standart olarak kullanılan güvenilir test yöntemi</p>
+                    </div>
+
+                    <div class="trust-card">
+                        <div class="trust-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <rect x="6" y="6" width="20" height="20" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                                <path d="M12 16L15 19L20 13" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4 class="trust-title">Yapay Zekâ Analizi</h4>
+                        <p class="trust-description">Derin öğrenme algoritmaları ile geliştirilmiş hassas değerlendirme sistemi</p>
+                    </div>
+
+                    <div class="trust-card">
+                        <div class="trust-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2.5"/>
+                                <path d="M16 10V16L20 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4 class="trust-title">Hızlı Sonuç</h4>
+                        <p class="trust-description">5 dakikada tamamlanan test ve anlık dijital raporlama</p>
+                    </div>
+
+                    <div class="trust-card">
+                        <div class="trust-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M16 4C16 4 8 8 8 14C8 19 12 24 16 28C20 24 24 19 24 14C24 8 16 4 16 4Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                                <path d="M12 15L15 18L20 13" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4 class="trust-title">Güvenli & Gizli</h4>
+                        <p class="trust-description">Verileriniz şifrelenir ve üçüncü taraflarla paylaşılmaz</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Test Card Component - Test Screen -->
+        <section id="test-screen" class="screen test-section">
+            <div class="test-container">
+                
+                <!-- Progress Component -->
+                <div class="progress-card">
+                    <div class="progress-header">
+                        <div class="progress-info">
+                            <span class="progress-label">Test İlerlemesi</span>
+                            <span class="progress-sublabel">Ishihara Renk Görme Değerlendirmesi</span>
+                        </div>
+                        <span class="progress-text">Soru <span id="current-question">1</span> / <span id="total-questions">10</span></span>
+                    </div>
+                    <div class="progress-bar-wrapper">
+                        <div class="progress-bar">
+                            <div id="progress-fill" class="progress-fill"></div>
+                        </div>
+                        <span id="progress-percentage" class="progress-percentage">10%</span>
+                    </div>
+                    <p class="progress-hint">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <path d="M7 13C10.3137 13 13 10.3137 13 7C13 3.68629 10.3137 1 7 1C3.68629 1 1 3.68629 1 7C1 10.3137 3.68629 13 7 13Z" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M7 4.5V7M7 9.5H7.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                        Her görseli rahat bir ortamda, normal ışıklandırma altında inceleyin.
+                    </p>
+                </div>
+
+                <!-- Test Card Component -->
+                <div class="test-card">
+                    <div class="test-card-header">
+                        <h2 class="test-title">Ishihara Renk Testi</h2>
+                        <p class="test-instruction">Görselde gördüğünüz sayıyı aşağıdaki alana girin</p>
+                        <div class="test-info-banner">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M8 5V8M8 11H8.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                            <span>Bu test plakası, renk görme fonksiyonunuzu değerlendirmek için tasarlanmıştır. Net gördüğünüz sayıyı giriniz.</span>
+                        </div>
+                    </div>
+
+                    <!-- Image Component -->
+                    <div class="test-image-container">
+                        <div class="image-wrapper">
+                            <img id="test-image" src="" alt="Test Görseli" class="test-image" />
+                            <div id="image-loader" class="image-loader">
+                                <div class="loader-spinner"></div>
+                                <p>Yükleniyor...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Answer Form Component -->
+                    <div class="answer-form">
+                        <label class="form-label">
+                            Cevabınız
+                            <span class="form-label-hint">(Tek veya çift haneli sayı)</span>
+                        </label>
+                        <div class="form-group">
+                            <input 
+                                type="text" 
+                                id="answer-input" 
+                                class="form-input"
+                                placeholder="Gördüğünüz sayıyı girin"
+                                maxlength="3"
+                                autocomplete="off"
+                                aria-label="Test cevabı girişi"
+                            />
+                            <button id="cant-see-btn" class="btn-secondary" aria-label="Göremiyorum seçeneği">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Göremiyorum</span>
+                            </button>
+                        </div>
+                        <p class="form-hint">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                <circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/>
+                            </svg>
+                            Eğer görselde hiçbir sayı göremiyorsanız "Göremiyorum" seçeneğini kullanın.
+                        </p>
+                    </div>
+
+                    <!-- Navigation Component -->
+                    <div class="test-navigation">
+                        <button id="prev-btn" class="btn-outline" disabled>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Önceki</span>
+                        </button>
+                        <button id="next-btn" class="btn-primary" disabled>
+                            <span>Sonraki</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button id="submit-btn" class="btn-success" style="display: none;">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.666 5L7.499 14.167L3.333 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Testi Tamamla</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Result Card Component - Result Screen -->
+        <section id="result-screen" class="screen result-section">
+            <div class="result-container">
+                
+                <!-- Result Card Component -->
+                <div class="result-card">
+                    
+                    <!-- Clinical Notice Banner -->
+                    <div class="clinical-notice">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18Z" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M10 6V10M10 14H10.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                        <div class="clinical-notice-content">
+                            <strong>Ön Değerlendirme Sonucu</strong>
+                            <p>Bu sonuç bilgilendirme amaçlıdır ve kesin teşhis değildir. Profesyonel bir göz doktoru muayenesi önerilir.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Result Header -->
+                    <div class="result-header">
+                        <div id="result-icon" class="result-icon-wrapper">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="3"/>
+                                <path d="M16 24L22 30L32 18" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="result-badge">Dijital Tarama Sonucu</div>
+                        <h2 id="result-diagnosis" class="result-title">Analiz Tamamlandı</h2>
+                        <p id="result-description" class="result-subtitle"></p>
+                    </div>
+
+                    <!-- Statistics Grid -->
+                    <div class="stats-section">
+                        <h3 class="stats-title">Test İstatistikleri</h3>
+                        <p class="stats-description">Cevaplarınızın genel değerlendirmesi</p>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <svg class="stat-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="stat-value" id="stat-total">-</div>
+                                <div class="stat-label">Toplam Soru</div>
+                                <div class="stat-hint">Tamamlanan test sayısı</div>
+                            </div>
+                            <div class="stat-card stat-success">
+                                <svg class="stat-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="stat-value" id="stat-correct">-</div>
+                                <div class="stat-label">Doğru Cevap</div>
+                                <div class="stat-hint">Standart cevaplarla eşleşen</div>
+                            </div>
+                            <div class="stat-card stat-error">
+                                <svg class="stat-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M10 14L12 12M12 12L14 10M12 12L10 10M12 12L14 14M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="stat-value" id="stat-wrong">-</div>
+                                <div class="stat-label">Farklı Cevap</div>
+                                <div class="stat-hint">Standarttan farklı yanıtlar</div>
+                            </div>
+                            <div class="stat-card stat-primary">
+                                <svg class="stat-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <div class="stat-value" id="stat-accuracy">-%</div>
+                                <div class="stat-label">Eşleşme Oranı</div>
+                                <div class="stat-hint">Doğru cevap yüzdesi</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Confidence Score -->
+                    <div class="confidence-card">
+                        <div class="confidence-header">
+                            <div class="confidence-label-group">
+                                <span class="confidence-label">Güven Skoru</span>
+                                <span class="confidence-explanation">Yapay zekâ modelinin tahmin güvenilirlik oranı</span>
+                            </div>
+                            <span id="confidence-value" class="confidence-value">-%</span>
+                        </div>
+                        <div class="confidence-bar-container">
+                            <div class="confidence-bar">
+                                <div id="confidence-fill" class="confidence-fill"></div>
+                            </div>
+                        </div>
+                        <div class="confidence-legend">
+                            <span class="legend-item">
+                                <span class="legend-dot high"></span>
+                                Yüksek (%80+)
+                            </span>
+                            <span class="legend-item">
+                                <span class="legend-dot medium"></span>
+                                Orta (%50-79)
+                            </span>
+                            <span class="legend-item">
+                                <span class="legend-dot low"></span>
+                                Düşük (%0-49)
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- AI Recommendations Section -->
+                    <div id="ai-recommendations-section" class="ai-recommendations-section" style="display: none;">
+                        
+                        <!-- Section Header -->
+                        <div class="ai-section-header">
+                            <div class="ai-icon-wrapper">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 17L12 22L22 17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 12L12 17L22 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="ai-header-content">
+                                <h3 class="ai-section-title">AI Destekli Kişisel Öneriler</h3>
+                                <p class="ai-section-subtitle">Test sonuçlarınıza göre, aşağıdaki öneriler günlük yaşamda karşılaşabileceğiniz renk algısına bağlı zorlukları azaltmaya yardımcı olabilir.</p>
+                            </div>
+                            <div id="ai-badge" class="ai-generated-badge" style="display: none;">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>AI Üretimi</span>
+                            </div>
+                        </div>
+
+                        <!-- Primary Recommendation Card -->
+                        <div id="primary-recommendation-card" class="recommendation-card primary-card">
+                            <div class="recommendation-header">
+                                <span id="primary-icon" class="recommendation-type-icon">🔵</span>
+                                <div class="recommendation-title-group">
+                                    <h4 id="primary-title" class="recommendation-title">Birincil Renk Körlüğü</h4>
+                                    <span class="recommendation-badge primary">Birincil Tespit</span>
+                                </div>
+                            </div>
+                            <ul id="primary-recommendations-list" class="recommendations-list">
+                                <!-- Öneriler JavaScript ile doldurulacak -->
+                            </ul>
+                        </div>
+
+                        <!-- Secondary Recommendation Card (Optional) -->
+                        <div id="secondary-recommendation-card" class="recommendation-card secondary-card" style="display: none;">
+                            <div class="recommendation-header">
+                                <span id="secondary-icon" class="recommendation-type-icon">🟢</span>
+                                <div class="recommendation-title-group">
+                                    <h4 id="secondary-title" class="recommendation-title">İkincil Renk Körlüğü</h4>
+                                    <span class="recommendation-badge secondary">İkincil Tespit</span>
+                                </div>
+                            </div>
+                            <p id="secondary-note" class="secondary-note"></p>
+                        </div>
+
+                        <!-- Lifestyle Tips (Optional) -->
+                        <div id="lifestyle-tips-card" class="lifestyle-tips-card" style="display: none;">
+                            <div class="lifestyle-header">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke-width="2"/>
+                                    <path d="M12 16v-4M12 8h.01" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span>Genel Yaşam Kalitesi Önerileri</span>
+                            </div>
+                            <ul id="lifestyle-tips-list" class="lifestyle-tips-list">
+                                <!-- Öneriler JavaScript ile doldurulacak -->
+                            </ul>
+                        </div>
+
+                        <!-- AI Ethics Notice -->
+                        <div class="ai-ethics-notice">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <p>Bu öneriler yapay zekâ destekli ön değerlendirme amaçlıdır. Kesin teşhis için bir göz hastalıkları uzmanına başvurulması önerilir.</p>
+                        </div>
+                    </div>
+
+                    <!-- Detailed Results Toggle -->
+                    <div class="details-section">
+                        <button id="toggle-details-btn" class="btn-outline-secondary">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M3 4H17M3 10H17M3 16H17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <span>Detaylı Sonuçları Görüntüle</span>
+                        </button>
+                        <div id="details-content" class="details-content" style="display: none;">
+                            <h3 class="details-title">Cevap Detayları</h3>
+                            <div id="answer-details" class="answer-details-grid"></div>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="result-actions">
+                        <button id="restart-btn" class="btn-primary">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10C4 13.3137 6.68629 16 10 16C13.3137 16 16 13.3137 16 10C16 6.68629 13.3137 4 10 4C8.4087 4 6.96549 4.60879 5.88461 5.61538M5.88461 5.61538V2M5.88461 5.61538H9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Yeni Test</span>
+                        </button>
+                        <button id="download-results-btn" class="btn-outline">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M10 14L10 4M10 14L6 10M10 14L14 10M3 16H17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Sonuçları İndir</span>
+                        </button>
+                    </div>
+
+                    <!-- Medical Disclaimer -->
+                    <div class="medical-notice">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 8V11M10 14H10.01M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>Bu sonuçlar ön değerlendirme amaçlıdır. Kesin teşhis için lütfen bir göz doktoruna başvurunuz.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Loading Component - Loading Screen -->
+        <section id="loading-screen" class="screen loading-section">
+            <div class="loading-card scale-up">
+                <div class="spinner-gradient"></div>
+                <h3 class="loading-title">Sonuçlarınız Analiz Ediliyor</h3>
+                <p class="loading-text">Yapay zekâ modelimiz verilerinizi değerlendiriyor...</p>
+                <div class="loading-dots">
+                    <div class="loading-dot"></div>
+                    <div class="loading-dot"></div>
+                    <div class="loading-dot"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Component -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-title">Renk Körlüğü Testi</h4>
+                    <p class="footer-text">Yapay zekâ destekli, klinik standartlara uygun renk görme değerlendirmesi.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Bağlantılar</h4>
+                    <a href="#" class="footer-link">Hakkımızda</a>
+                    <a href="#" class="footer-link">Gizlilik Politikası</a>
+                    <a href="#" class="footer-link">İletişim</a>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Destek</h4>
+                    <a href="#" class="footer-link">SSS</a>
+                    <a href="#" class="footer-link">Yardım Merkezi</a>
+                    <a href="#" class="footer-link">Geri Bildirim</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Renk Körlüğü Tespit Sistemi. Tüm hakları saklıdır.</p>
+                <p class="footer-disclaimer">Bu uygulama tıbbi teşhis amaçlı değildir. Profesyonel tıbbi danışmanlık alınız.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
+
